@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shark Park</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+  </head>
+
+<body>
+    
+  <header>
+      <img class="sharkparklogo" src="images/sharkpark.png" alt="Shark Park Title Logo">
+  </header>
+	<nav>
+    <div class="menutablespotlight">
+
+        <a href="index.html"><button class="topbutton longhome">Home</button></a>
+
+        <a href="work.html"><button class="topbutton selectedpage">Our Work</button></a></td>
+        <a href="spotlight.html"><button class="topbutton  ">Shark Spotlight</button></a>
+
+        <a href="involved.html"><button class="topbutton">Get Involved</button></a>
+        <a href="safety.html"><button class="topbutton">Swim Smart</button></a>
+    </div>
+	</nav>
+  <main>
+    <section class="slideshow-section">
+      <img id="manual-slide-image" class="slideshow-imgage" src="slideimages/hammerheadconserve.png">
+
+    </section>
+    <div class="button-container">
+      <button class="slidebutton" onclick="previousSlide()">PREVIOUS</button>
+      <button class="slidebutton" onclick="nextSlide()">NEXT</button>        
+    </div>
+    <section class="teamtiles">
+      <div class="tileleft">
+        <article class="stafftiles">
+          <img class="portrait" src="staffimages/hammerchief.png">
+          <p>Clint Boraan</p> <p>Hammerhead - Diving Chief</p>
+        </article>
+        <article class="stafftiles">
+          <img class="portrait" src="staffimages/tigerchief.png">
+          <p> Lucy Sears</p> <p> Tiger - Diving Chief</p>
+        </article>
+        <article class="stafftiles">
+          <img class="portrait" src="staffimages/bullchief.png">
+          <p>Anthony Burr</p> <p> Bull - Diving Chief</p>
+        </article>
+      </div>
+      <div class="tileright">  
+        <article class="stafftiles">
+          <img class="portrait" src="staffimages/conservelead.png">
+          <p> Rory Pond</p> <p> Conservation Lead</p>
+        </article>
+        <article class="stafftiles">
+          <img class="portrait" src="staffimages/analyst.png">
+          <p>Sarah-Jane Smith</p> <p>Analytics & Research Lead</p>
+        </article>
+        <article class="stafftiles">
+          <img class="portrait" src="staffimages/president.png">
+          <p>Jack Harkness</p><p>President & CEO</p>
+        </article>
+      </div>  
+
+    </section>
+
+    <section class="workarts">
+      <div class="divleft">
+        <div class="divtop">
+          <article class="aboutart">
+            <h2 class="paraleft">OUR HISTORY</h2>
+
+            <p class="paraleft">Shark Park began in 1992 with three sharklovers who struggled to find reliable information on shark effects
+              on thir ecoystems and changes from external factors such as climate change, overfishing, habitat loss
+              and scarce food. 
+              <br>
+              These members became the diving chiefs you see today. After getting scuba certification after they decided the only
+              information they could trust was when they gathered raw data themselves. 
+              <br>
+              Thirty years later, Shark Park consists of 600 people of various roles to study the migration patterns and low numbers of sharks 
+              in an effort to protect them, their ecosystems and habitat as well as understand the mysteries these creatures hold. 
+            </p>
+          </article>
+          <article class="aboutart">
+            <h2 class="paraleft"> WHAT WE DO</h2>
+            <p class="paraleft">The people at Shark Park study migration, behavioural and population changes throughout the world on the majority of shark species. 
+              Donations from generous people in the community fund new equipment, software and staff to better learn about these creatures and how we 
+              can prevserve them, their habitat, and reduce overfishing. 
+              <br>
+              By previous migration patters and rate of habitat loss, we at Shark Park can forecast future issues, including increased amount of shark 
+              attacks due to food and habitat loss, and what areas sharks use as a nursery to protect as a sanctuary. 
+            </p>
+          </article>
+        </div> 
+        <div class="divbottom"> 
+          <article class="aboutart">
+            <h2 class="paraleft">THREATS TO HABITATION</h2>
+            <p class="paraleft">
+              Sharks face significant threats to their habitat. One major concern is habitat loss. Coastal development and destructive fishing methods 
+              like bottom trawling can lead to the destruction of crucial shark habitats. Pollution, including chemical contaminants and 
+              plastics, also contributes to this issue. Climate change disrupts ocean ecosystems and affects the distribution of prey species, 
+              which in turn impacts the availability of suitable shark habitats. 
+              <br>
+              Conservation efforts are essential to address these habitat-related threats and protect these incredible creatures. 
+              By implementing sustainable fishing practices, reducing pollution, and taking action against climate change, we can help preserve 
+              and restore essential shark habitats.
+            </p>
+          </article>
+          <article class="aboutart">
+            <h2 class="paraleft"> SHARK NUMBERS DOWN FROM HUNTING</h2>
+            <p class="paraleft">
+              Sharks are facing a critical challenge when it comes to declining numbers due to hunting. The demand for shark fins, meat, 
+              and other products has resulted in unsustainable fishing practices that can seriously deplete shark populations. Overfishing 
+              is a significant factor leading to the decline of these magnificent creatures. Conservation efforts are paramount to combat 
+              this issue and protect sharks from the devastating impact of hunting. Implementing sustainable fishing practices and stricter 
+              regulations can help to curb this threat and promote the recovery of shark populations. It's vital to address this aspect of 
+              shark conservation alongside habitat protection to ensure the survival of these remarkable animals.
+            </p>
+          </article>
+      </div>
+      </div>  
+      <div class="divright">
+        <article class="artform">  
+          <h2>CONTACT & FEEDBACK</h2>
+          <form id="form">
+            <div class="field">
+                <label for="from_name">Name:</label>
+                <input type="text" name="from_name" id="from_name" required>
+            </div>
+        
+            <div class="field">
+                <label for="from_email">Email:</label>
+                <input type="text" name="from_email" id="from_email" required>
+            </div>
+        
+            <div class="messagefield">
+                <label for="teammessage">Message:</label>
+                <textarea id="teammessage" name="message" rows="5" required></textarea>
+            </div>
+            <div class="field">
+                <input type="submit" id="button" value="Submit">
+            </div>
+          </form>
+        </article>
+        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+      
+        <script type="text/javascript">
+        emailjs.init('NnUzu9ZNZ3o_QsMaZ')
+          </script>
+      </div>    
+    </section>
+  </main>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script> 
+  <script src="javascript.js"></script>
+  
+</body>
+
+<footer>
+  <section class="footerpolicy">
+    <p> Site Created by Beth Jones</p>
+    <p>All Sources are used for educational purposes only</p>
+    <a href="privacy.html" target="_blank">Privacy Policy</a>
+  </section>
+
+
+</footer>
+
+</html>
+
+
+

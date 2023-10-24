@@ -1,0 +1,1973 @@
+/*Mobile first approach*/
+
+
+/*Start of nav styling*/
+
+* {
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+
+	.navbuttons {
+		/*display:flex;*/
+		overflow: auto;
+		
+		margin:auto;
+		justify-content: center;
+	}
+
+	.private {
+		color: white;
+		display: flex;
+		flex-direction: column;
+		text-align: left;
+		margin-left: 20px;
+		margin-right: 20px;
+	}
+
+	.homesharkcont {
+		margin: 0;
+	}
+
+	.topbutton {
+		margin: 0;
+		background-color:rgba(0,0,0,0);
+		border-radius: 5px;
+		border-color: white;
+		color:rgb(245, 245, 245);
+		font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+		font-size: 0.8em;
+		width:47vw;	
+		display: inline;
+		text-align: center;
+		padding: 1em;
+		text-decoration: none;
+		
+
+	}
+
+	.selectedpage {
+		background-image: linear-gradient(rgba(248, 243, 243, 0.333),rgba(103, 161, 203, 0.299));
+	}
+
+	.longhome {
+
+		width:94vw ;
+		text-align: center;
+	}
+
+	a {
+		text-decoration: none;
+	}
+
+	.menutable {
+		background-image: linear-gradient(rgba(103, 161, 203, 0.299));
+	}
+
+
+	.sharkparklogo {
+		display: block;
+		width: 95%;
+		margin-left: auto;
+		margin-right: auto;
+		
+
+	}
+	/*End of Nav styling*/
+	/*-------------------------------------------------------------------------*/
+	/*Start of main/body styling*/
+
+
+	body {
+
+		font-family: Verdana, Geneva, Tahoma, sans-serif;
+		background-image: linear-gradient(rgb(0,51,102), black);
+		background-size: 100% 100%;
+		background-repeat: no-repeat;
+		
+	}
+
+	img.homeshark {
+		width: 94vw;
+		display: block;
+		border: 3px solid rgb(114, 114, 114);
+		margin-left: auto;
+		margin-right: auto;
+		
+	}
+
+	.reefcontainer {
+		position: relative;
+		align-items: center;
+	}
+
+	.sharktext {
+		position: absolute;
+		bottom: -50px;
+		left: 15px;
+		color: white;
+		font-size: 0.7em;
+	}
+
+
+
+
+	.introtext {
+		color: white;
+		font-family:Verdana, Geneva, Tahoma, sans-serif;
+		width: 98vw;
+		margin-left: 10px;
+		width: 95vw;
+	}
+
+	.demonart {
+		width: 10%;
+	}
+
+
+
+	section {
+		display: flex;
+		flex-direction: column;
+		margin-bottom: 40px;
+		align-content: center;
+	}
+
+
+
+	.discoverarticle {
+		display: block;
+		color: white;
+		text-align: center;
+	}
+
+	.demonsharkimg {
+		text-align: center;
+		border: 3px solid rgb(114, 114, 114);
+		width: 85vw;
+		height: auto;
+	}
+
+	.greatwhitehome {
+		width:85vw;
+		height: auto;
+		text-align: center;
+		border: 3px solid rgb(114, 114, 114);
+	}
+
+	.tigershark {
+		width:85vw;
+		height: auto;
+		border: 3px solid rgb(114, 114, 114);
+		text-align: center;
+	}
+
+	.sharkhomearticles {
+		flex-direction: column;
+		display: flex;
+
+		margin: 8px;
+	}
+
+	article h3 {
+		text-align: center;
+	}
+
+	.homereadmore {
+		background-color:rgba(0,0,0,0);
+		border-radius: 5px;
+		border-color: white;
+		color:rgb(245, 245, 245);
+		font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+		font-size: 1em;	
+		text-align: center;
+		padding: 0.5em;
+		text-decoration: none;
+		width: 80vw;
+
+
+	}
+
+	footer {
+		color: white;
+		background-color: rgb(26, 26, 26) ;
+		width: 100vw;
+		text-align: center;
+		height:5vh;
+		bottom:0;
+
+	}
+
+	.footerpolicy {
+		color: white;
+		background-color: rgb(26, 26, 26) ;
+	}
+
+	a {
+		text-decoration: none;
+		color: white;
+	}
+
+	/*--------------------------------------------SHARK SPOTLIGHT STYLING BEGINS HERE--------------------------------------*/
+
+
+
+.bullsharkimage {
+    width: 95vw;
+    height: auto;
+    margin-top: 20px;
+	border: 3px solid rgb(114, 114, 114);
+    float: center;
+    text-align: center;
+}
+
+
+
+
+.spotlightbutton {
+	background-image: linear-gradient(rgba(248, 243, 243, 0.333),rgba(103, 161, 203, 0.299));
+}
+
+
+.spotsharkarticles {
+	color: white;
+	text-align: left;
+	align-items: center;
+	height: auto;
+	margin-bottom: 5vh;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	position: relative;
+}
+
+.paraleft {
+	text-align: left;
+
+}
+
+#toggle,
+#toggle1,
+#toggle2,
+#toggle3 {
+	background-color:rgba(0,0,0,0);
+	border-radius: 5px;
+	border-color: white;
+	color:rgb(245, 245, 245);
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	font-size: 1em;	
+	text-align: center;
+	padding: 0.5em;
+	text-decoration: none;
+	width: 30vw;
+	margin-top: 1vh;
+}
+
+
+
+.spotsharkarticlesright {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+} 
+
+.TrendsDiv {
+	width: 100%;
+	display: flex;
+}
+
+.HabsUniqueDiv {
+	display: flex;
+	flex-direction: column;
+	width: 85vw;
+}
+
+.species {
+	width: 90vw;
+}
+
+.habitats {
+	width: 90vw;
+}
+
+.trends {
+	width: 90vw;
+}
+
+.features {
+	width: 90vw;
+}
+
+
+.btn-container{
+  margin: auto;
+  height:44px;
+  width:166.23px;
+  text-align: center;
+  
+}
+
+#text,
+#text1, 
+#text2, 
+#text3 {
+	display: none;
+}
+
+/*---------------------------------------------------Swim Smart Styling begins here--------------------------*/
+
+.videocontainer {
+	position: relative;
+	padding-bottom: 55%;
+	padding-top: 30px;
+	height: 0;
+	overflow: hidden;
+	margin: 20px;
+	max-width: 100%;
+	text-align: center;
+}
+
+.videocontainer iframe {
+	position:absolute;
+	top: 0;
+	left: 0;
+	width: 100vw;
+	height: 100%;
+	display: inline-block;
+}
+
+.videotext {
+	position: relative;
+	font-size: .7em;
+	font-weight: bold;
+	text-align: center;
+	color: white;
+
+}
+
+.beachimage {
+	width:95%;
+}
+
+.shallowsharkimg {
+	width:95%;
+}
+.safearticle {
+padding: 1.0em;
+background-image: linear-gradient(rgb(5, 86, 148), black);
+border-radius: 6px;
+color: white;
+display: inline;
+background-color: black;
+width: 80vw;
+align-self: center;
+justify-content: space-between;
+position: relative;
+}
+
+.safereadmore {
+	font-size: 1em;	
+	text-align: center;
+	padding: 0.5em;
+	text-decoration: none;
+	width: 25vw;
+	text-align: center;
+	margin-top: 2vh;
+	width: 35vw;
+	float: right;
+	background-color: rgba(0,0,0,0);
+	border-color: white;
+	color: white;
+	border-radius: 5%;
+}
+
+.safereadmore:hover {
+	color: rgb(0,51,102);
+	background-color: white;
+	border-color: white;
+}
+
+
+/*----------------------------------------------------Our Work Syling begins here----------------------------*/
+.slideshow-section {
+	width: 99vw;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	align-items: center;
+	margin-top: 20px;
+ }
+  
+  .slideshow-imgage {
+	width: 100%;
+
+  }
+  
+  .button-container {
+	display: flex;
+	flex-direction: row;
+	text-align: center;
+	align-items: center;
+	justify-content: center;
+	margin-bottom: 30px;
+
+  }
+  
+  .slidebutton {
+	background-color: rgb(0, 51, 102);
+	color: white;
+	border-color: white;
+	border-radius: 5%;
+	width: 100px;
+	text-align: center;
+	height: 30px;
+	margin: 0 10px;
+	margin-top: -10px;
+  }
+
+  .teamtiles {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-evenly;
+
+  }
+
+  .stafftiles {
+	width: 40vw;
+	padding: 10px;
+	background-image: linear-gradient(rgb(0, 102, 204), black);
+	margin-bottom: 20px;
+	border-radius: 6px;
+	color: white;
+	background-color: black;
+	align-items: center;
+	justify-content: space-between;
+	position: relative;
+	font-size: 1.5em;
+
+  }
+
+  .workarts {
+	display: flex;
+	align-items: center;
+	align-content: center;
+	text-align: center;
+	
+  }
+
+  .artform {
+	background-image: linear-gradient(rgb(5, 86, 148), black);
+	display: flex;
+	flex-direction: column;
+	color: white;
+	width: 85vw;
+	height: auto;
+  }
+
+  .field input[type="text"]{
+	line-height: 1.5;
+	font-size: 20px;
+	background-color: white;
+	border: none;
+	padding: 5px; 
+	width: 50vw;
+  }
+
+  .messagefield textarea {
+	line-height: 1.5;
+	font-size: 20px;
+	background-color: white;
+	border: none;
+	padding: 5px; 
+	width: 85vw;
+}
+
+  .field {
+	display: flex;
+	flex-direction: row;
+	margin: 20px;
+  }
+
+  .messagefield {
+	display:flex;
+	flex-direction: column;
+	align-items: flex-start;
+	width: 60vw;
+	margin-left: 20px;
+  }
+
+  .messagefield label{
+	font: 20px;
+	padding: 5px 10px;
+	margin-bottom: 5px;
+  }
+
+  .messagefield textarea {
+	line-height: 1.5;
+	font-size: 20px;
+	border: none;
+	padding: 5px; 
+	width: 65vw;
+  }
+
+  input[type="submit"] {
+	display: block;
+	margin: 0 auto; 
+	padding: 6px 30px;
+	font-size: 20px;
+	background-color: black;
+	color: white;
+	border: 3px solid white;
+	border-radius: 5%;
+	width: 85vw;
+}
+
+
+  .field label {
+	font: 20px;
+	padding: 5px 10px;
+	margin-bottom: 5px;
+  }
+
+  .stafftiles p {
+	font-size: 0.6em;
+	border-radius: 0%;
+  }
+
+  .portrait {
+	width: 38vw;
+	height: 170px;
+	margin-bottom: 10px;
+	
+  }
+
+  .tileleft {
+	display: flex;
+	flex-direction: column;
+  }
+
+  .tileright {
+	display: flex;
+	flex-direction: column;
+  }
+
+  .mainarticle  {
+	padding: 1.0em;
+	background-image: linear-gradient(rgb(5, 86, 148), black);
+	border-radius: 6px;
+	color: white;
+	display: inline;
+	background-color: black;
+	width: 88vw;
+	align-items: center;
+	justify-content: space-between;
+	position: relative;
+
+	}
+
+	.aboutart {
+		padding: 1.0em;
+		background-image: linear-gradient(rgb(5, 86, 148), black);
+		border-radius: 6px;
+		color: white;
+		background-color: black;
+		width: 88vw;
+		align-items: center;
+		position: relative;
+	}
+
+
+
+	/*-----------------------------------------------GET INVOLVED MOBILE STARTS HERE---------------------------------------------------------*/
+
+	.involvemain {
+		text-align: center;
+	}
+
+	.involvearticle {
+		color: white;
+		background-image: linear-gradient(rgb(5, 86, 148), black);
+		text-align: center;
+		align-items: center;
+		justify-content: center;
+		width: 85vw;
+		margin-top: 20px;
+		margin-left: 8vw;
+	}
+
+	.involvebutton a {
+		text-decoration: none;
+		color: white;
+	}
+
+	.involvenews {
+		width: 85vw;
+	}
+
+	.bullfriends {
+		width: 90%;
+		margin-top: 20px;
+		margin-bottom: 20px;
+
+	}
+
+	.involvebutton {
+		width: 40%;
+		float: right;
+		color: white;
+		border-width: 5x solid white;
+		background-color: black;
+		padding: 15px;
+		border-radius: 10%;
+	}
+
+	.bannersection {
+		text-align: center;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.sharkbanner {
+		max-width: 95vw;
+
+	}
+
+
+	.informs {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		text-align: center;
+		justify-content: center;
+		color: white;
+	}
+
+	.inform1 {
+		text-align: left;
+	}
+
+	.inform1 input {
+	line-height: 1.5;
+	font-size: 20px;
+	}
+
+	.donateform {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.donation {
+		display: flex;
+		flex-direction: column;	
+	}
+
+	.cardname {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.cardnumber {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.emaildonate {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.cvc {
+		display: flex;
+		flex-direction: column;
+		margin-left: 10vw;
+	}
+
+	.expiry {
+		display: flex;
+		flex-direction: column;
+		margin-left: 10vw;
+	}
+	
+
+	.donation label,
+	.cardname label,
+	.cardnumber label,
+	.emaildonate label,
+	.cvc label,
+	.expiry label {
+	text-align: left
+	}
+
+	.inputsmall {
+		width: 15vw;
+
+	}
+
+	.inputlarge {
+		width: 40vw;
+	}
+
+	.invdonation {
+		display: flex;
+		flex-direction: row;
+
+		padding-left: 20px;
+		padding-right: 20px;
+		margin-top: 30px;
+	}
+
+	.invnamecvc {
+		display: flex;
+		flex-direction: row;
+
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+
+	.invnumberexpiry {
+		display: flex;
+		flex-direction: row;
+;
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+
+	.emaildonate {
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+
+
+	.invdonation p {
+		margin-left: 15vw;
+	}
+
+	.involvenews p {
+		margin-left: 10px;
+	}
+
+	.involvebutton{
+		border-radius: 5%;
+		background-color: rgb(0, 0, 0, 0);
+		border: 5px solid white;
+		width: 30vw;
+		margin-top: 50px;
+		margin-bottom: 20px;
+		margin-right: 20px;
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*-------------------Tablets and other medium devices-----------*/
+@media screen and (min-width: 426px) and (max-width: 768px) 
+{
+	
+
+	/*set menu buttons inline*/
+	.topbutton, .longhome{
+		width:19vw;
+		padding-top: 10px;
+		padding-bottom: 10px;
+		width: 20vw;
+		margin-left: 20px;
+		margin-bottom: 15px;
+	}
+
+	.topbutton:hover {
+		color: rgb(0, 51, 102);
+		background-color: white;
+
+	}
+
+	.sharktext {
+		position: absolute;
+		bottom: 20px;
+		left: 15px;
+		color: white;
+		font-size: 2.5vw;
+		text-align: left;
+	}
+
+	#sharktextAlign{
+		text-align: left;
+		width: 70%;
+	}
+	
+	main section {
+		flex-direction: row;
+
+			
+	}
+
+	.sharkhomearticles {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-evenly;
+		height: max-content;
+		margin-top: 30px;
+	}
+
+
+	.mainarticle {
+		width: 25vw;
+
+	}
+
+	.homeart {
+		font-size: 0.8em;
+	}
+
+	.demonsharkimg {
+		border: 3px solid rgb(114, 114, 114);
+		height: 15vh;
+		width: 23vw;
+	}
+	
+	.greatwhitehome {
+		border: 3px solid rgb(114, 114, 114);
+		height: 15vh;
+		width: 23vw;
+
+	}
+	
+	.tigershark {
+		height: 15vh;
+		width: 23vw;
+	}
+
+	.homesharkcont {
+		width: 99vw;
+	}
+	
+	.sharkparklogo {
+		width: 90vw;
+	}
+
+	.homereadmore {
+		font-size: 1em;	
+		text-align: center;
+		padding: 0.5em;
+		text-decoration: none;
+		width: 25vw;
+		text-align: center;
+		margin-top: 2vh;
+		width: 18vw;
+
+	}
+
+	.homereadmore:hover {
+		color: rgb(0,51,102);
+		background-color: white;
+		border-color: white;
+	}
+
+
+
+	img.homeshark {
+		width: 99vw;
+		display: block;
+		text-align: center;
+		border: 3px solid rgb(114, 114, 114);
+		margin-left: 0;
+		margin-right: 0;
+	}
+
+
+
+/*-----------------------------------SHARK SPOTLIGHT: TABLET AND MEDIUM SCREEN--------------------------------------*/
+
+
+	
+	.spotsharkarticles {
+		display: flex;
+		flex-direction: row;
+
+	} 
+	
+	.spotsharkarticlesright {
+		display: flex;
+		flex-direction: column;
+		justify-items: flex-start;
+		height: 50vh;
+		padding-top: 2px;
+	} 
+
+	.TrendsDiv {
+		width: 60vw;
+		height: 25vh;
+		display: flex;
+	}
+	
+	.HabsUniqueDiv {
+		display: flex;
+		flex-direction: row;
+		justify-items: flex-start;
+		height: 25vh;
+		width: 60vw;
+	}
+
+	.species {
+		width: 40vw;
+		height: 47vh;
+		overflow: auto;
+		margin:8px;
+		padding: 8px;
+		margin-left: 50px;
+
+		
+	}
+	
+	.habitats {
+		width: 30vw;
+		height: 20vh;
+		overflow: auto;
+		margin:8px;
+
+		
+	}
+
+	.trends {
+		width: 60vw;
+		height: 20vh;
+		overflow: auto;
+		margin:8px;
+
+		
+	}
+
+	.features {
+		width: 30vw;
+		height: 20vh;
+		overflow: auto;
+		margin:8px;
+
+		
+	}
+
+	.paraleft {
+		text-align: left;
+	}
+
+	#toggle,
+	#toggle1,
+	#toggle2,
+	#toggle3 {
+		background-color:rgba(0,0,0,0);
+		border-radius: 5px;
+		border-color: white;
+		color:rgb(245, 245, 245);
+		font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+		font-size: 1em;	
+		text-align: center;
+		padding: 0.5em;
+		text-decoration: none;
+		width: 15vw;
+		margin-top: 1vh;
+	}
+	/*-------------------------------SWIM SMART TABLET STYLING BEGINS HERE--------------------*/
+	.videocontainer {
+		position: relative;
+		margin-bottom: 20px;;
+		justify-content: center;
+		width: auto;
+		text-align: center;
+		align-items: center;
+	
+	}
+	
+	.videocontainer iframe {
+		position:relative;
+		top: 0;
+		left: 0;
+		width: 85vw;
+		height: 25vh;
+		margin-left: 50px;
+
+	}
+
+	.videocontainer h2 {
+		color: white;
+		margin-top: 20px;
+	}
+	
+	.videotext {
+		font-size: 1em;
+		font-weight: bold;
+		text-align: center;
+		color: white;
+
+	}
+
+	.beachimage {
+		width:95%;
+	}
+
+	.shallowsharkimg {
+		width:95%;
+	}
+	.safearticle {
+		padding: 1.0em;
+		background-image: linear-gradient(rgb(5, 86, 148), black);
+		border-radius: 6px;
+		color: white;
+		display: inline;
+		background-color: black;
+		width: 35vw;
+		align-items: center;
+		justify-content: space-between;
+		position: relative;
+	}
+
+	.safereadmore {
+		font-size: 1em;	
+		text-align: center;
+		padding: 0.5em;
+		text-decoration: none;
+		width: 25vw;
+		text-align: center;
+		margin-top: 2vh;
+		width: 18vw;
+		float: right;
+		background-color: rgba(0,0,0,0);
+		border-color: white;
+		color: white;
+		border-radius: 5%;
+	}
+
+	.safereadmore:hover {
+		color: rgb(0,51,102);
+		background-color: white;
+		border-color: white;
+	}
+
+	/*-----------------------------------------Work Starts Here TABLET---------------------------------*/
+
+	.slidebutton {
+		background-color: rgb(0, 51, 102);
+		color: white;
+		border-color: white;
+		border-radius: 5%;
+		width: 100px;
+		text-align: center;
+		height: 40px;
+		margin: 0 10px;
+		margin-top: -10px;
+	}
+
+
+	
+	.slideshow-section {
+		width: 99vw;
+		display: flex;
+		flex-direction: column;
+		text-align: center;
+		align-items: center;
+		margin-top: 20px;
+	}
+	
+	.slideshow-imgage {
+		width: 100%;
+
+	}
+	
+
+	
+	.slidebutton {
+		background-color: rgb(0, 51, 102);
+		color: white;
+		border-color: white;
+		border-radius: 5%;
+		width: 100px;
+		text-align: center;
+		height: 30px;
+		margin: 0 10px;
+		margin-top: -10px;
+	}
+
+	.teamtiles {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: space-evenly;
+
+	}
+
+	.stafftiles {
+		width: 28vw;
+		padding: 10px;
+		background-image: linear-gradient(rgb(0, 102, 204) black);
+		margin: 5px;
+
+
+	}
+
+	 .artform {
+		width: 94vw;
+		
+	}
+
+	.aboutart {
+		width: 30vw;
+		margin: 10px;
+		display:flex;
+	}
+
+
+
+	.workarts article {
+		align-items: center;
+		align-content: center;
+		text-align: center;
+		display: flex;
+		flex-direction: column;
+	}
+
+	.stafftiles p {
+		font-size: 0.6em;
+		border-radius: 0%;
+	}
+
+	.portrait {
+		width: 25vw;
+		height: 170px;
+		margin-bottom: 10px;
+		
+	}
+
+	.tileleft {
+		display: flex;
+		flex-direction: row;
+	}
+
+	.tileright {
+		display: flex;
+		flex-direction: row;
+	}
+
+	
+
+	.field {
+		display: flex;
+		flex-direction: column; 
+		align-items: flex-start; 
+		margin-bottom: 20px;
+
+	}
+
+	.messagefield textarea {
+		width: 85vw;
+	}
+
+
+
+	.divleft {
+		display: flex;
+		flex-direction: column;
+
+	}
+
+	.divright {
+		display: flex;
+		flex-direction: column;
+		width: 98vw;
+	}
+
+	.divtop {
+		display: flex;
+		flex-direction: row;
+		width: 98vw;
+
+	}
+
+	.divbottom {
+		display: flex;
+		flex-direction: row;
+		width: 98vw;
+	}
+
+	.aboutart {
+		width: 45vw;
+
+
+	}
+
+	.workarts {
+		display: flex;
+		flex-direction: column;
+	}
+
+	/*--------------------------------------------------------INVOLVE TABLET STYLING------------------------*/
+
+	.involvenews p {
+		margin-left: 20px;
+		margin-right: 20px;
+	}
+
+	.involvebutton {
+		margin-bottom: 15px;
+		margin-right: 15px;
+	}
+
+	.involvebutton{
+		border-radius: 5%;
+		background-color: rgb(0, 0, 0, 0);
+		border: 5px solid white;
+		width: 30vw;
+		margin-top: 50px;
+		margin-bottom: 20px;
+		margin-right: 20px;
+	}
+
+
+
+
+
+
+}
+
+
+
+
+
+
+	/*--------------------------------------------------------------------------*/
+	/*Laptop and computer screen - Large screen*/
+	@media screen and (min-width: 769px)
+	{
+		/*set menu buttons inline*/
+		.topbutton, .longhome{
+			width:19vw;
+			padding-top: 10px;
+			padding-bottom: 10px;
+			width: 15vw;
+			margin-left: 40px;
+			margin-bottom: 15px;
+		}
+
+		.topbutton:hover {
+			color: rgb(0, 51, 102);
+			background-color: white;
+
+		}
+
+		
+		main section {
+			flex-direction: row;
+
+				
+		}
+
+		.sharkhomearticles {
+			display: flex;
+			flex-direction: row;
+			justify-content: space-evenly;
+			height: max-content;
+			margin-top: 30px;
+		}
+
+
+		.mainarticle {
+			width: 25vw;
+			height: auto;
+		}
+
+
+		.homeart {
+			font-size: 0.8em;
+		}
+
+		.demonsharkimg {
+			height: auto;
+			width: 80%;
+		}
+		
+		.greatwhitehome {
+			height: auto;
+			width: 80%;
+
+		}
+		
+		.tigershark {
+			height: auto;
+			width: 80%;
+		}
+
+		.homesharkcont {
+			width: 99vw;
+		}
+		
+		.sharkparklogo {
+			width: 90vw;
+		}
+
+		.sharktext {
+			position: absolute;
+			bottom: 50px;
+			left: 15px;
+			color: white;
+			font-size: 2.5vw;
+			text-align: left;
+		}
+
+		#sharktextAlign{
+			text-align: left;
+			width: 70%;
+		}
+	
+
+		
+
+
+		.homereadmore {
+			font-size: 1em;	
+			text-align: center;
+			padding: 0.5em;
+			text-decoration: none;
+			width: 25vw;
+			text-align: center;
+			margin-top: 2vh;
+			width: 18vw;
+			position: absolute;
+			bottom: 5px;
+			left: 65px;
+
+		}
+
+		.homereadmore:hover {
+			color: rgb(0,51,102);
+			background-color: white;
+			border-color: white;
+		}
+
+
+
+		img.homeshark {
+			width: 98vw;
+			display: block;
+			text-align: center;
+			border: 3px solid rgb(114, 114, 114);
+			margin-left: 0;
+			margin-right: 0;
+
+
+		}
+
+
+		
+	
+
+	/*------------------------------------------SHARK SPOTLIGHT: LARGE SCREEN--------------------------------------------*/
+
+
+	.spotsharkarticles {
+		display: flex;
+		flex-direction: row;
+
+		justify-content: center;
+		align-items: center;
+	} 
+	
+	.spotsharkarticlesright {
+		display: flex;
+		flex-direction: column;
+		justify-items: flex-start;
+		height: 50vh;
+	} 
+
+	.TrendsDiv {
+		width: 55vw;
+		height: 25vh;
+		display: flex;
+	}
+	
+	.HabsUniqueDiv {
+		display: flex;
+		flex-direction: row;
+		justify-items: flex-start;
+		height: 25vh;
+		width: 55vw;
+	}
+
+	.species {
+		width: 35vw;
+		height: 45vh;
+		overflow: auto;
+		margin:8px;
+		margin-left: 110px;
+
+		
+	}
+	.species button,
+	.habitats button,
+	.trends button,
+	.features button {
+		display: none;
+	}
+
+	#text,
+	#text1,
+	#text2,
+	#text3 {
+		display: block;
+	}
+	
+	.habitats {
+		width: 25vw;
+		height: 20vh;
+		overflow: auto;
+		margin:8px;
+
+		
+	}
+
+	.trends {
+		width: 55vw;
+		height: 20vh;
+		overflow: auto;
+		margin:8px;
+
+		
+	}
+
+	.features {
+		width: 25vw;
+		height: 20vh;
+		overflow: auto;
+		margin:8px;
+
+		
+	}
+
+	/*----------------------------------SWIM SMART LARGE STYLING HERE---------------------*/
+
+	.videocontainer {
+		display: flex;
+		flex-direction: column;
+		padding-bottom: 55%;
+		padding-top: 30px;
+		height: 0;
+		overflow: hidden;
+		text-align: center;
+	}
+	
+	.videocontainer iframe {
+		position:absolute;
+		top: 0;
+		left: 0;
+		width: 55vw;
+		height: 35vw;
+		align-self: center;
+		padding-left: 320px;
+		padding-top: 100px;
+	}
+	
+	.videotext {
+		font-size: 2em;
+		font-weight: bold;
+		text-align: center;
+		color: white;
+		margin: 15px;
+		margin-top: -10px;
+	}
+
+			
+	.mainvid {
+		display: flex;
+		flex-direction: column;
+
+			
+	}
+
+
+	.beachimage {
+		width:95%;
+	}
+	
+	.shallowsharkimg {
+		width:95%;
+	}
+	.safearticle {
+	padding: 1.0em;
+	background-image: linear-gradient(rgb(5, 86, 148), black);
+	border-radius: 6px;
+	color: white;
+	display: inline;
+	background-color: black;
+	width: 35vw;
+	align-self: center;
+	justify-content: space-between;
+	position: relative;
+	}
+
+	.safereadmore {
+		display: inline-block;
+		position: relative;
+		font-size: 1em;	
+		text-align: center;
+		padding: 0.5em;
+		text-decoration: none;
+		width: 25vw;
+		text-align: center;
+		margin-top: 2vh;
+		width: 20vw;
+		background-color: rgba(0,0,0,0);
+		border-color: white;
+		color: white;
+		border-radius: 5%;
+	}
+	
+	.safereadmore:hover {
+		color: rgb(0,51,102);
+		background-color: white;
+		border-color: white;
+	}
+
+	.mainvid h2 {
+		position: relative;
+		color: white;
+		top: 600px;
+		font-size: 3em;
+	}
+
+	/*----------------------------------our work styling LARGE starts here----------------------*/
+
+	.slidebutton {
+		background-color: rgb(0, 51, 102);
+		color: white;
+		border-color: white;
+		border-radius: 5%;
+		width: 130px;
+		text-align: center;
+		height: 60px;
+		margin: 0 20px;
+		margin-top: -10px;
+	  }
+
+	  .teamtiles {
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+	
+	  }
+	
+	  .stafftiles {
+		width: 13vw;
+		padding: 10px;
+		background-image: linear-gradient(rgb(0, 102, 204), black);
+		margin-bottom: 20px;
+		border-radius: 6px;
+		color: white;
+		background-color: black;
+		align-items: center;
+		justify-content: space-between;
+		position: relative;
+		font-size: 1.5em;
+		margin-right: 30px;
+
+	
+	  }
+	
+	  .workarts {
+		display: flex;
+		align-items: center;
+		align-content: center;
+		text-align: center;
+		
+	  }
+	
+	  .artform {
+		background-image: linear-gradient(rgb(5, 86, 148), black);
+		display: flex;
+		flex-direction: column;
+		color: white;
+		width: 40vw;
+		height: auto;
+	  }
+	
+	  .field input[type="text"]{
+		line-height: 1.5;
+		font-size: 20px;
+		background-color: white;
+		border: none;
+		padding: 5px; 
+		width: 50vw;
+	  }
+	
+	  .messagefield textarea {
+		line-height: 1.5;
+		font-size: 20px;
+		background-color: white;
+		border: none;
+		padding: 5px; 
+		width: 10vw;
+	}
+	
+	  .field {
+		display: flex;
+		flex-direction: row;
+		margin: 20px;
+	  }
+	
+	  .messagefield {
+		display:flex;
+		flex-direction: column;
+		align-items: flex-start;
+		width: 20vw;
+		margin-left: 20px;
+	  }
+	
+	  .messagefield label{
+		font: 20px;
+		padding: 5px 10px;
+		margin-bottom: 5px;
+	  }
+	
+	  .messagefield textarea {
+		line-height: 1.5;
+		font-size: 20px;
+		border: none;
+		padding: 5px; 
+		width: 36.5vw;
+		height: 30vh;
+	
+	  }
+	
+	  input[type="submit"] {
+		display: block;
+		margin: 0 auto; 
+		padding: 6px 30px;
+		font-size: 20px;
+		background-color: black;
+		color: white;
+		border: 3px solid white;
+		border-radius: 5%;
+		width: 85vw;
+	}
+	
+	
+	  .field label {
+		font: 20px;
+		padding: 5px 10px;
+		margin-bottom: 5px;
+	  }
+	
+	  .stafftiles p {
+		font-size: 0.6em;
+		border-radius: 0%;
+	  }
+	
+	  .portrait {
+		width: 11vw;
+		height: 170px;
+		margin-bottom: 10px;
+		
+	  }
+	
+	  .tileleft {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+	  }
+	
+	  .tileright {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+	  }
+	
+	  .mainarticle  {
+		padding: 1.0em;
+		background-image: linear-gradient(rgb(5, 86, 148), black);
+		border-radius: 6px;
+		color: white;
+		display: inline;
+		background-color: black;
+		align-items: center;
+		justify-content: space-between;
+		position: relative;
+	
+		}
+	
+	 .aboutart {
+		padding: 1.0em;
+		background-image: linear-gradient(rgb(5, 86, 148), black);
+		border-radius: 6px;
+		color: white;
+		background-color: black;
+		width: 55vw;
+		align-items: center;
+		position: relative;
+		}
+
+		.divleft {
+			display: flex;
+			flex-direction: column;
+			width: 55vw;
+	
+		}
+	
+		.divright {
+			display: flex;
+			flex-direction: column;
+			width: 45vw;
+			margin-left: 50px;
+		}
+	
+		/*---------------------------------------------------------INVOLVED LARGE STYLING-----------------------*/
+
+		.sharkbanner {
+			width:80vw;
+		}
+
+
+
+		.spotsign {
+			height: 509px;
+
+		}
+
+		.informs {
+			display: flex;
+			flex-direction: row;
+			justify-content: space-evenly;
+		}
+
+	
+		.cvc {
+			display: flex;
+			flex-direction: column;
+			margin-left: 10vw;
+		}
+	
+		.expiry {
+			display: flex;
+			flex-direction: column;
+			margin-left: 10vw;
+		}
+		
+	
+		.inputsmall {
+			width: 5vw;
+	
+		}
+	
+		.inputlarge {
+			width: 20vw;
+		}
+	
+		.invdonation {
+			display: flex;
+			flex-direction: row;
+	
+			padding-left: 20px;
+			padding-right: 20px;
+			margin-top: 30px;
+		}
+	
+		.invnamecvc {
+			display: flex;
+			flex-direction: row;
+	
+			padding-left: 20px;
+			padding-right: 20px;
+		}
+	
+		.invnumberexpiry {
+			display: flex;
+			flex-direction: row;
+	
+			padding-left: 20px;
+			padding-right: 20px;
+		}
+	
+		.emaildonate {
+			padding-left: 20px;
+			padding-right: 20px;
+		}
+		
+		.emailspacer {
+			margin-bottom: 100px;
+		}
+	
+		.invdonation p {
+			margin-left: 15vw;
+		}
+		
+		.involvearticle {
+			display: flex;
+			flex-direction: row;
+		}
+
+		.bullfriends {
+			width: 40vw;
+			float: left;
+			margin-right: 20px;
+			margin-left: 20px;
+		}
+
+		.involvebutton{
+			border-radius: 5%;
+			background-color: rgb(0, 0, 0, 0);
+			border: 5px solid white;
+			width: 30vw;
+			margin-top: 210px;
+			margin-bottom: 20px;
+			margin-right: 20px;
+		}
+
+
+}
+	
+
+	@media screen and (min-width:2559px) {
+		.demonsharkimg {
+			border: 3px solid rgb(114, 114, 114);
+			height: auto;
+			width: 23vw;
+		}
+		
+		.menutable {
+			font-size: 2.5em;
+			margin-bottom: 15px;
+		}
+		.greatwhitehome {
+			border: 3px solid rgb(114, 114, 114);
+			height: auto;
+			width: 23vw;
+
+		}
+		
+		.tigershark {
+			height: auto;
+			width: 23vw;
+		}
+
+		.homereadmore {
+			position: absolute;
+			bottom: 5px;
+			left:100px;
+		}
+
+		.sharktext {
+            position: absolute;
+            bottom: 100px;
+            left: 15px;
+            color: white;
+            font-size: 2.5vw;
+            text-align: left; 
+        }
+
+        #sharktextAlign{
+            text-align: left;
+            width: 70%;
+        }
+
+		.mainvid h2 {
+			position: relative;
+			color: white;
+			top: 1150px;
+			font-size: 3em;
+		}
+
+
+		.videocontainer iframe {
+			position:absolute;
+			top: 0;
+			left: 0;
+			width: 60vw;
+			height: 40vw;
+			align-self: center;
+			padding-left: 520px;
+			padding-top: 100px;
+		}
+
+
+	}
+
+
+
+
+
+
+
+	
+	
+
+
+
+
+
+
+
+
+	
+
+	
